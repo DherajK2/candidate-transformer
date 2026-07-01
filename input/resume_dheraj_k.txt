@@ -1,0 +1,45 @@
+Dheraj K
+dherajk.engineer.27@gmail.com | github.com/DherajK2 | linkedin.com/in/dherajk02-dev +91 8310341645 |
+Mysuru, Karnataka
+
+Education
+• The National Institute of Engineering Sep 2023 - July 2027
+B.E. in Computer Science CGPA: 9.13
+• Vijaya Vittalla Composite PU College Mysuru, India
+PUC (12th Grade) 2020 - 2022 — Score: 97%
+
+Technical Skills
+• Languages: JavaScript, Java, Python, C
+• Backend: Node.js, Express.js, RESTful API Design, WebSockets, JWT Authentication
+• Databases: MongoDB, MySQL, Indexing, Query Optimization, Normalization
+• DevOps & Tools: Git, GitHub Actions, Docker, Postman, CI/CD Basics,Kubernetes,Prometheus
+• Cloud: AWS (EC2, S3 - Basics)
+• Core Concepts: Data Structures & Algorithms, OOP, DBMS, OS, Computer Networks
+
+Projects
+• SmartQueue – Adaptive API Gateway Mar 2026 - May 2026
+– Built a non-blocking API gateway using Spring WebFlux with adaptive rate limiting backed by Redis
+– Implemented sliding window and token bucket algorithms configurable per user, IP, and endpoint
+– Designed JWT-secured admin REST APIs for dynamic threshold management and abuse detection workflows
+– Benchmarked gateway under simulated burst traffic using k6, validating reactive backpressure under high concurrency
+– Containerized services with Docker and deployed on Kubernetes using Helm charts
+– Configured Prometheus and Grafana dashboards for real-time traffic monitoring and observability
+
+• CampusConnect – Real-Time Academic Collaboration Platform Jan 2026 - Feb 2026
+– Built scalable REST APIs using Node.js and Express following modular MVC architecture for maintainability
+– Implemented real-time communication using WebSockets (Socket.io), supporting 100+ concurrent users
+– Developed secure JWT-based authentication and role-based access control for multi-user environments
+– Optimized MongoDB queries using indexing, reducing API response time by approx 30% under load
+
+• Linux-Based Network Monitoring Tool (Python) Dec 2025 - Jan 2026
+– Developed Python tool to monitor latency and packet loss using system-level diagnostics
+– Automated network statistics collection reducing manual troubleshooting effort
+– Parsed logs to detect anomalies and failed connections improving issue detection accuracy
+– Generated summarized reports simulating real-world network troubleshooting workflows
+
+Experience
+• Launched Global Bengaluru, India
+AI Automation Intern Jul 2025 - Sep 2025
+– Automated enterprise workflows using n8n and API integrations reducing repetitive operations
+– Designed structured automation pipelines with conditional execution logic
+– Improved operational efficiency by streamlining retail workflow processes

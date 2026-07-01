@@ -1,0 +1,36 @@
+{
+  "candidate": {
+    "name": "John Doe",
+    "emails": ["john.doe@email.com"],
+    "phones": ["+91-9876543210"],
+    "location": {
+      "city": "Hyderabad",
+      "region": "Telangana",
+      "country": "India"
+    },
+    "headline": "Full Stack Engineer at Microsoft",
+    "years_experience": 4.5,
+    "skills": ["React.js", "Python", "Docker"],
+    "links": {
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "github": "https://github.com/johndoe"
+    },
+    "experience": [
+      {
+        "company": "Microsoft India",
+        "title": "Software Engineer II",
+        "start": "06/2022",
+        "end": "Present",
+        "summary": "Building scalable backend pipelines and reactive UI features."
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Hyderabad",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "end_year": "2022"
+      }
+    ]
+  }
+}

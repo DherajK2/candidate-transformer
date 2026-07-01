@@ -1,0 +1,266 @@
+{
+  "candidate_id": "cand_txt_272bb1ab",
+  "full_name": "Dheraj K",
+  "emails": [
+    "dherajk.engineer.27@gmail.com"
+  ],
+  "phones": [
+    "+918310341645"
+  ],
+  "location": {
+    "city": null,
+    "region": null,
+    "country": "IN"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/dherajk02-dev",
+    "github": "https://github.com/dherajk2",
+    "portfolio": null,
+    "other": [
+      "https://dherajk.engi",
+      "https://node.js",
+      "https://express.js",
+      "https://socket.io"
+    ]
+  },
+  "headline": null,
+  "years_experience": null,
+  "skills": [
+    {
+      "name": "JavaScript",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Python",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Java",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Express",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Express",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Spring",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Spring WebFlux",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Redis",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Git",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "GitHub Actions",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Docker",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Grafana",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "n8n",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "WebSockets",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    },
+    {
+      "name": "Amazon Web Services",
+      "confidence": 0.65,
+      "sources": [
+        "resume_dheraj_k.txt"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "AI Automation Intern",
+      "title": "Sep 2025",
+      "start": "2025-07",
+      "end": "Present",
+      "summary": "\u2013 Automated enterprise workflows using n8n and API integrations reducing repetitive operations \u2013 Designed structured automation pipelines with conditional execution logic \u2013 Improved operational efficiency by streamlining retail workflow processes"
+    }
+  ],
+  "education": [
+    {
+      "institution": "\u2022 The National Institute of Engineering Sep",
+      "degree": "July 2027",
+      "field": null,
+      "end_year": "2023"
+    },
+    {
+      "institution": "\u2022 Vijaya Vittalla Composite PU College Mysuru",
+      "degree": "India",
+      "field": null,
+      "end_year": null
+    }
+  ],
+  "overall_confidence": 0.65,
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "resume_dheraj_k.txt",
+      "method": "regex_heuristics",
+      "timestamp": "2026-07-01T08:19:04.068436",
+      "confidence": 0.65
+    },
+    {
+      "field": "emails",
+      "source": "resume_dheraj_k.txt",
+      "method": "regex_heuristics",
+      "timestamp": "2026-07-01T08:19:04.068436",
+      "confidence": 0.65
+    },
+    {
+      "field": "phones",
+      "source": "resume_dheraj_k.txt",
+      "method": "regex_heuristics",
+      "timestamp": "2026-07-01T08:19:04.068436",
+      "confidence": 0.65
+    },
+    {
+      "field": "location",
+      "source": "resume_dheraj_k.txt",
+      "method": "regex_heuristics",
+      "timestamp": "2026-07-01T08:19:04.068436",
+      "confidence": 0.65
+    },
+    {
+      "field": "links",
+      "source": "resume_dheraj_k.txt",
+      "method": "regex_heuristics",
+      "timestamp": "2026-07-01T08:19:04.068436",
+      "confidence": 0.65
+    },
+    {
+      "field": "skills",
+      "source": "resume_dheraj_k.txt",
+      "method": "regex_heuristics",
+      "timestamp": "2026-07-01T08:19:04.068436",
+      "confidence": 0.65
+    },
+    {
+      "field": "experience",
+      "source": "resume_dheraj_k.txt",
+      "method": "regex_heuristics",
+      "timestamp": "2026-07-01T08:19:04.068436",
+      "confidence": 0.65
+    },
+    {
+      "field": "education",
+      "source": "resume_dheraj_k.txt",
+      "method": "regex_heuristics",
+      "timestamp": "2026-07-01T08:19:04.068436",
+      "confidence": 0.65
+    }
+  ]
+}

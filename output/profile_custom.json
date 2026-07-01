@@ -1,0 +1,16 @@
+{
+  "full_name": "John Doe",
+  "primary_email": "john.doe@email.com",
+  "phone": "+919876543210",
+  "skills": [
+    "React",
+    "Python",
+    "Docker",
+    "JavaScript",
+    "Amazon Web Services",
+    "Kubernetes",
+    "PostgreSQL",
+    "Django"
+  ],
+  "overall_confidence": 0.83
+}

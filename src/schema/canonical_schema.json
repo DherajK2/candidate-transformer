@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CanonicalCandidateProfile",
+  "type": "object",
+  "properties": {
+    "candidate_id": { "type": "string" },
+    "full_name": { "type": "string" },
+    "emails": {
+      "type": "array",
+      "items": { "type": "string", "format": "email" }
+    },
+    "phones": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "city": { "type": ["string", "null"] },
+        "region": { "type": ["string", "null"] },
+        "country": { "type": ["string", "null"], "pattern": "^[A-Z]{2}$" }
+      },
+      "required": ["city", "region", "country"],
+      "additionalProperties": false
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "linkedin": { "type": ["string", "null"] },
+        "github": { "type": ["string", "null"] },
+        "portfolio": { "type": ["string", "null"] },
+        "other": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["linkedin", "github", "portfolio", "other"],
+      "additionalProperties": false
+    },
+    "headline": { "type": ["string", "null"] },
+    "years_experience": { "type": ["number", "null"] },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "sources": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "required": ["name", "confidence", "sources"],
+        "additionalProperties": false
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "company": { "type": "string" },
+          "title": { "type": "string" },
+          "start": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}$" },
+          "end": { "type": ["string", "null"], "pattern": "^(\\d{4}-\\d{2}|Present)$" },
+          "summary": { "type": ["string", "null"] }
+        },
+        "required": ["company", "title", "start", "end", "summary"],
+        "additionalProperties": false
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "institution": { "type": "string" },
+          "degree": { "type": ["string", "null"] },
+          "field": { "type": ["string", "null"] },
+          "end_year": { "type": ["string", "null"], "pattern": "^\\d{4}$" }
+        },
+        "required": ["institution", "degree", "field", "end_year"],
+        "additionalProperties": false
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "field": { "type": "string" },
+          "source": { "type": "string" },
+          "method": { "type": "string" },
+          "timestamp": { "type": "string" },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+        },
+        "required": ["field", "source", "method", "timestamp", "confidence"],
+        "additionalProperties": false
+      }
+    },
+    "overall_confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+  },
+  "required": [
+    "candidate_id",
+    "full_name",
+    "emails",
+    "phones",
+    "location",
+    "links",
+    "headline",
+    "years_experience",
+    "skills",
+    "experience",
+    "education",
+    "provenance",
+    "overall_confidence"
+  ],
+  "additionalProperties": false
+}

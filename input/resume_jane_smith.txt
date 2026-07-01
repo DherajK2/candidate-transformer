@@ -1,0 +1,18 @@
+Jane Smith
+jane.smith@email.com | +1 (123) 456-7890 | Seattle, WA, USA
+linkedin.com/in/janesmith | github.com/janesmith
+
+Summary:
+Highly experienced Backend Engineer specializing in cloud architecture and distributed systems. 8+ years of experience.
+
+Experience:
+Amazon - Senior Software Engineer (Jan 2021 - Present)
+Led development of high-throughput data pipelines using Go, AWS, and Kubernetes.
+Google - Software Engineer (09/2018 - 12/2020)
+Designed and optimized large-scale database systems using PostgreSQL and Java.
+
+Education:
+University of Washington - Master of Science in Computer Science (2018)
+
+Skills:
+Go, AWS, Kubernetes, PostgreSQL, Java, Python, Docker
