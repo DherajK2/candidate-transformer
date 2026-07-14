@@ -1,5 +1,5 @@
 {
-  "candidate_id": "cand_csv_60c2496c",
+  "candidate_id": "cand_csv_5fba8f5f",
   "full_name": "John Doe",
   "emails": [
     "john.doe@email.com"
@@ -16,7 +16,11 @@
     "linkedin": "https://www.linkedin.com/in/johndoe",
     "github": "https://github.com/johndoe",
     "portfolio": null,
-    "other": []
+    "other": [
+      "https://john.doe",
+      "https://b.tech",
+      "https://react.js"
+    ]
   },
   "headline": "Full Stack Engineer at Microsoft",
   "years_experience": 4.5,
@@ -55,14 +59,14 @@
       ]
     },
     {
-      "name": "Amazon Web Services",
+      "name": "Kubernetes",
       "confidence": 0.65,
       "sources": [
         "resume_john_doe.pdf"
       ]
     },
     {
-      "name": "Kubernetes",
+      "name": "Amazon Web Services",
       "confidence": 0.65,
       "sources": [
         "resume_john_doe.pdf"
@@ -114,188 +118,195 @@
       "end_year": "2022"
     }
   ],
-  "overall_confidence": 0.83,
+  "overall_confidence": 0.82,
   "provenance": [
     {
       "field": "full_name",
       "source": "recruiter.csv",
       "method": "csv_parsing",
-      "timestamp": "2026-07-01T07:28:58.859609",
+      "timestamp": "2026-07-14T10:28:54.780143",
       "confidence": 0.95
     },
     {
       "field": "emails",
       "source": "recruiter.csv",
       "method": "csv_parsing",
-      "timestamp": "2026-07-01T07:28:58.859609",
+      "timestamp": "2026-07-14T10:28:54.780143",
       "confidence": 1.0
     },
     {
       "field": "phones",
       "source": "recruiter.csv",
       "method": "csv_parsing",
-      "timestamp": "2026-07-01T07:28:58.859609",
+      "timestamp": "2026-07-14T10:28:54.780143",
       "confidence": 1.0
     },
     {
       "field": "location",
       "source": "recruiter.csv",
       "method": "csv_parsing",
-      "timestamp": "2026-07-01T07:28:58.859609",
+      "timestamp": "2026-07-14T10:28:54.780143",
       "confidence": 0.85
     },
     {
       "field": "links",
       "source": "recruiter.csv",
       "method": "csv_parsing",
-      "timestamp": "2026-07-01T07:28:58.859609",
+      "timestamp": "2026-07-14T10:28:54.780143",
       "confidence": 0.85
     },
     {
       "field": "headline",
       "source": "recruiter.csv",
       "method": "csv_parsing",
-      "timestamp": "2026-07-01T07:28:58.859609",
+      "timestamp": "2026-07-14T10:28:54.780143",
       "confidence": 0.85
     },
     {
       "field": "years_experience",
       "source": "recruiter.csv",
       "method": "csv_parsing",
-      "timestamp": "2026-07-01T07:28:58.859609",
+      "timestamp": "2026-07-14T10:28:54.780143",
       "confidence": 0.95
     },
     {
       "field": "skills",
       "source": "recruiter.csv",
       "method": "csv_parsing",
-      "timestamp": "2026-07-01T07:28:58.859609",
+      "timestamp": "2026-07-14T10:28:54.780143",
       "confidence": 0.85
     },
     {
       "field": "experience",
       "source": "recruiter.csv",
       "method": "csv_parsing",
-      "timestamp": "2026-07-01T07:28:58.859609",
+      "timestamp": "2026-07-14T10:28:54.780143",
       "confidence": 0.85
     },
     {
       "field": "emails",
       "source": "ats_profile.json",
       "method": "json_parsing",
-      "timestamp": "2026-07-01T07:28:58.859886",
+      "timestamp": "2026-07-14T10:28:54.780499",
       "confidence": 1.0
     },
     {
       "field": "phones",
       "source": "ats_profile.json",
       "method": "json_parsing",
-      "timestamp": "2026-07-01T07:28:58.859886",
+      "timestamp": "2026-07-14T10:28:54.780499",
       "confidence": 1.0
     },
     {
       "field": "location",
       "source": "ats_profile.json",
       "method": "json_parsing",
-      "timestamp": "2026-07-01T07:28:58.859886",
+      "timestamp": "2026-07-14T10:28:54.780499",
       "confidence": 0.85
     },
     {
       "field": "links",
       "source": "ats_profile.json",
       "method": "json_parsing",
-      "timestamp": "2026-07-01T07:28:58.859886",
+      "timestamp": "2026-07-14T10:28:54.780499",
       "confidence": 0.85
     },
     {
       "field": "headline",
       "source": "ats_profile.json",
       "method": "json_parsing",
-      "timestamp": "2026-07-01T07:28:58.859886",
+      "timestamp": "2026-07-14T10:28:54.780499",
       "confidence": 0.85
     },
     {
       "field": "years_experience",
       "source": "ats_profile.json",
       "method": "json_parsing",
-      "timestamp": "2026-07-01T07:28:58.859886",
+      "timestamp": "2026-07-14T10:28:54.780499",
       "confidence": 0.95
     },
     {
       "field": "skills",
       "source": "ats_profile.json",
       "method": "json_parsing",
-      "timestamp": "2026-07-01T07:28:58.859886",
+      "timestamp": "2026-07-14T10:28:54.780499",
       "confidence": 0.85
     },
     {
       "field": "experience",
       "source": "ats_profile.json",
       "method": "json_parsing",
-      "timestamp": "2026-07-01T07:28:58.859886",
+      "timestamp": "2026-07-14T10:28:54.780499",
       "confidence": 0.85
     },
     {
       "field": "education",
       "source": "ats_profile.json",
       "method": "json_parsing",
-      "timestamp": "2026-07-01T07:28:58.859886",
+      "timestamp": "2026-07-14T10:28:54.780499",
       "confidence": 0.85
     },
     {
       "field": "full_name",
       "source": "resume_john_doe.pdf",
       "method": "pdf_text_extraction",
-      "timestamp": "2026-07-01T07:28:58.893478",
+      "timestamp": "2026-07-14T10:28:54.825239",
       "confidence": 0.75
     },
     {
       "field": "emails",
       "source": "resume_john_doe.pdf",
       "method": "pdf_text_extraction",
-      "timestamp": "2026-07-01T07:28:58.893478",
+      "timestamp": "2026-07-14T10:28:54.825239",
       "confidence": 0.85
     },
     {
       "field": "phones",
       "source": "resume_john_doe.pdf",
       "method": "pdf_text_extraction",
-      "timestamp": "2026-07-01T07:28:58.893478",
+      "timestamp": "2026-07-14T10:28:54.825239",
       "confidence": 0.85
     },
     {
       "field": "location",
       "source": "resume_john_doe.pdf",
       "method": "pdf_text_extraction",
-      "timestamp": "2026-07-01T07:28:58.893478",
+      "timestamp": "2026-07-14T10:28:54.825239",
+      "confidence": 0.65
+    },
+    {
+      "field": "links",
+      "source": "resume_john_doe.pdf",
+      "method": "pdf_text_extraction",
+      "timestamp": "2026-07-14T10:28:54.825239",
       "confidence": 0.65
     },
     {
       "field": "years_experience",
       "source": "resume_john_doe.pdf",
       "method": "pdf_text_extraction",
-      "timestamp": "2026-07-01T07:28:58.893478",
+      "timestamp": "2026-07-14T10:28:54.825239",
       "confidence": 0.75
     },
     {
       "field": "skills",
       "source": "resume_john_doe.pdf",
       "method": "pdf_text_extraction",
-      "timestamp": "2026-07-01T07:28:58.893478",
+      "timestamp": "2026-07-14T10:28:54.825239",
       "confidence": 0.65
     },
     {
       "field": "experience",
       "source": "resume_john_doe.pdf",
       "method": "pdf_text_extraction",
-      "timestamp": "2026-07-01T07:28:58.893478",
+      "timestamp": "2026-07-14T10:28:54.825239",
       "confidence": 0.65
     },
     {
       "field": "education",
       "source": "resume_john_doe.pdf",
       "method": "pdf_text_extraction",
-      "timestamp": "2026-07-01T07:28:58.893478",
+      "timestamp": "2026-07-14T10:28:54.825239",
       "confidence": 0.65
     }
   ]

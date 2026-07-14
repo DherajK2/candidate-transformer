@@ -7,10 +7,10 @@
     "Python",
     "Docker",
     "JavaScript",
-    "Amazon Web Services",
     "Kubernetes",
+    "Amazon Web Services",
     "PostgreSQL",
     "Django"
   ],
-  "overall_confidence": 0.83
+  "overall_confidence": 0.82
 }
